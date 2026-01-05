@@ -1870,7 +1870,10 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
+			display: block;
 			width: 100%;
+			max-width: 480px;
+			margin: 0.5em auto;
 		}
 
 		input[type="submit"].small,
@@ -3853,6 +3856,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
