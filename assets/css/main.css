@@ -2302,7 +2302,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #3a2b19; lmao
+			background: #3a2b19;
 		}
 
 		select:focus::-ms-value {
@@ -3316,7 +3316,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #8b5a2b; lmao
+		background-color: #8b5a2b;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3470,7 +3470,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #3a2b19; lmao
+		background: #3a2b19;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3853,6 +3853,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
