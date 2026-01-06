@@ -1843,6 +1843,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: none;
 		box-shadow: 0 6px 0 #23190d;
+		border: 1.5px solid #23190d;
 		display: block;
 		width: 100%;
 		max-width: 480px;
@@ -3856,6 +3857,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
