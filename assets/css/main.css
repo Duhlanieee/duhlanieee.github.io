@@ -3857,6 +3857,46 @@ input, select, textarea {
 
 		}
 
+/* Pinterest-style photo collage */
+.gallery {
+  column-count: 4;
+  column-gap: 16px;
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}
+
+/* Responsive */
+@media screen and (max-width: 1280px) {
+  .gallery {
+    column-count: 3;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+
+
+
 
 
 
