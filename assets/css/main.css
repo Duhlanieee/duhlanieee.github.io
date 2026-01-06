@@ -1834,7 +1834,6 @@ input, select, textarea {
 		border-radius: 14px;
 		color: #ffffff !important;
 		cursor: pointer;
-		display: inline-block;
 		font-size: 0.9em;
 		font-weight: 600;
 		height: auto;
@@ -1847,6 +1846,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: none;
 		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+		width: auto;
 	}
 
 		input[type="submit"]:after,
@@ -3856,6 +3856,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
