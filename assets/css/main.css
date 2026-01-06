@@ -1836,17 +1836,17 @@ input, select, textarea {
 		cursor: pointer;
 		font-size: 0.9em;
 		font-weight: 600;
-		height: auto;
-		letter-spacing: normal;
 		line-height: 1.4;
-		outline: 0;
+		letter-spacing: normal;
 		padding: 1em 1.25em;
-		position: relative;
 		text-align: center;
 		text-decoration: none;
 		text-transform: none;
 		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-		width: auto;
+		display: block;
+		width: 100%;
+		max-width: 480px;
+		margin: 0.5em auto; 
 	}
 
 		input[type="submit"]:after,
@@ -3856,6 +3856,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 
 
